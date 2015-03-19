@@ -131,9 +131,14 @@ iframe {
 .artee-site-head {
   background: rgba(255, 255, 255, 0.9);
   border-top: 0.625rem solid #252525;
+  padding-top: 3.125rem;
+  padding-bottom: 4.375rem;
   color: #252525;
   position: relative;
   z-index: 2; }
+  @media only screen and (min-width: 40.063em) {
+    .artee-site-head {
+      padding-bottom: 8.125rem; } }
   .artee-site-head h1, .artee-site-head h2, .artee-site-head h3, .artee-site-head h4, .artee-site-head h5, .artee-site-head h6 {
     color: #252525; }
   .artee-site-head .artee-blog-title, .artee-site-head .artee-blog-description {
@@ -147,15 +152,16 @@ iframe {
     @media only screen and (min-width: 90.063em) {
       .artee-site-head .artee-blog-title, .artee-site-head .artee-blog-description {
         width: 83%; } }
-  .artee-site-head .artee-blog-title {
-    padding-bottom: 2.5rem; }
-    .artee-site-head .artee-blog-title .artee-site-logo {
-      line-height: 2.8125rem;
-      vertical-align: middle;
-      float: left;
-      padding-left: 0.9375rem; }
-      .artee-site-head .artee-blog-title .artee-site-logo img {
-        max-height: 2.75rem; }
+  @media only screen and (min-width: 40.063em) {
+    .artee-site-head .artee-blog-title {
+      padding-bottom: 3.75rem; } }
+  .artee-site-head .artee-blog-title .artee-site-logo {
+    line-height: 2.8125rem;
+    vertical-align: middle;
+    float: left;
+    padding-left: 0.9375rem; }
+    .artee-site-head .artee-blog-title .artee-site-logo img {
+      max-height: 2.75rem; }
   .artee-site-head .artee-blog-description h2 {
     font-family: "Playfair Display", Georgia, serif;
     font-weight: 400;
@@ -901,3 +907,5 @@ iframe {
     color: #fff; }
     .artee-error-page .artee-error-page-number .artee-error-page-font {
       font-size: 2.1875rem; }
+
+/*# sourceMappingURL=style.css.map */

@@ -209,7 +209,6 @@ iframe {
 		@extend .cf;
 	}
 	.#{$theme-prefix}-blog-title {
-		padding-bottom: rem-calc(40);
 		@media only screen and (min-width: 40.063em) {
 			padding-bottom: rem-calc(60);
 		}

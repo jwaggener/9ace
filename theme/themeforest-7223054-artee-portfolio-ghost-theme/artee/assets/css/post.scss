@@ -58,7 +58,6 @@ body.author-template {
 .#{$theme-prefix}-site-head.error-page {
 	background: $post-header-background;
 	padding-top: rem-calc(30);
-	padding-bottom: rem-calc(25);
 	&.with-post-image {
 		position: absolute;
 		width: 100%;
