@@ -15,7 +15,7 @@ body.tag-template,
 body.author-template {
   background-image: none !important;
   background-color: #fff;
-  border: 0.625rem solid #252525;
+  border: 0.625rem solid #000;
   border-top: 0; }
 
 /*******************************/
@@ -25,8 +25,7 @@ body.author-template {
 .tag-template .artee-site-head,
 .author-template .artee-site-head,
 .artee-site-head.error-page {
-  background: #fff;
-  padding-top: 1.875rem; }
+  background: #fff; }
   .post-template .artee-site-head.with-post-image,
   .tag-template .artee-site-head.with-post-image,
   .author-template .artee-site-head.with-post-image,
@@ -34,19 +33,6 @@ body.author-template {
     position: absolute;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.9); }
-  @media only screen and (min-width: 40.063em) {
-    .post-template .artee-site-head,
-    .tag-template .artee-site-head,
-    .author-template .artee-site-head,
-    .artee-site-head.error-page {
-      padding-bottom: 3.4375rem;
-      padding-top: 3.125rem; }
-      .post-template .artee-site-head.with-post-image,
-      .tag-template .artee-site-head.with-post-image,
-      .author-template .artee-site-head.with-post-image,
-      .artee-site-head.error-page.with-post-image {
-        padding-top: 1.875rem;
-        padding-bottom: 2.1875rem; } }
   .post-template .artee-site-head .artee-blog-title,
   .tag-template .artee-site-head .artee-blog-title,
   .author-template .artee-site-head .artee-blog-title,
@@ -96,7 +82,7 @@ body.author-template {
         color: #fff;
         padding: 1.875rem 0.9375rem 5rem;
         margin: 0;
-        background-color: rgba(37, 37, 37, 0.6);
+        background-color: rgba(0, 0, 0, 0.6);
         position: absolute;
         bottom: 0;
         width: 100%;
@@ -155,7 +141,7 @@ body.author-template {
     width: 3.75rem;
     height: 3.75rem;
     border-radius: 50%;
-    background: #252525;
+    background: #000;
     text-align: center;
     font-family: "Playfair Display", Georgia, serif;
     margin-top: 1.875rem;
@@ -228,7 +214,7 @@ body.author-template {
   margin-top: 0;
   text-align: center; }
   .artee-post-share > a {
-    color: #252525;
+    color: #000;
     margin-left: 0.3125rem;
     margin-right: 0.3125rem;
     -webkit-transition: all .3s;
@@ -289,7 +275,7 @@ body.author-template {
     margin-right: 0.3125rem;
     margin-bottom: 0.3125rem;
     padding: 0.625rem 0.9375rem;
-    background: #252525;
+    background: #000;
     color: #fff; }
     .artee-post-tags .artee-tag-item a {
       color: inherit; }
@@ -375,7 +361,7 @@ body.author-template {
   left: 0.625rem;
   width: calc(100% - 20px);
   background-color: rgba(255, 255, 255, 0.9);
-  color: #252525;
+  color: #000;
   z-index: 9999;
   -webkit-transform: translate3d(0, 200%, 0);
   -ms-transform: translate3d(0, 200%, 0);
@@ -390,7 +376,7 @@ body.author-template {
   .reading-time-indicator .post-reading-time {
     width: 100%;
     position: relative;
-    background-color: rgba(37, 37, 37, 0.02);
+    background-color: rgba(0, 0, 0, 0.02);
     height: 3.75rem;
     overflow-y: hidden; }
     .reading-time-indicator .post-reading-time .percent {
@@ -404,13 +390,13 @@ body.author-template {
       font-weight: 600;
       padding-right: 0.9375rem;
       font-family: "Playfair Display", Georgia, serif;
-      color: #252525; }
+      color: #000; }
     .reading-time-indicator .post-reading-time .read-estimation {
       position: absolute;
       top: 0;
       left: 0;
       z-index: 1050;
-      color: #252525;
+      color: #000;
       padding: 0 0.9375rem;
       height: 3.75rem;
       vertical-align: middle;
@@ -422,7 +408,7 @@ body.author-template {
         text-align: center; }
         .reading-time-indicator .post-reading-time .read-estimation .reading-time-blog-logo .fa {
           font-size: 1.5rem;
-          color: #252525;
+          color: #000;
           padding-top: 0.3125rem; }
       .reading-time-indicator .post-reading-time .read-estimation .read-estimation-content {
         display: table-cell;
@@ -449,15 +435,15 @@ body.author-template {
       appearance: none;
       border: none;
       background-color: transparent;
-      color: rgba(37, 37, 37, 0.05); }
+      color: rgba(0, 0, 0, 0.05); }
       .reading-time-indicator .post-reading-time .read-progress-indicator::-webkit-progress-bar {
         background-color: transparent; }
       .reading-time-indicator .post-reading-time .read-progress-indicator.single::-ms-fill {
         border: 0; }
       .reading-time-indicator .post-reading-time .read-progress-indicator.single::-webkit-progress-value {
-        background-color: rgba(37, 37, 37, 0.05); }
+        background-color: rgba(0, 0, 0, 0.05); }
       .reading-time-indicator .post-reading-time .read-progress-indicator.single::-moz-progress-bar {
-        background-color: rgba(37, 37, 37, 0.05); }
+        background-color: rgba(0, 0, 0, 0.05); }
     .reading-time-indicator .post-reading-time .progress-container {
       width: 100%;
       background-color: transparent;

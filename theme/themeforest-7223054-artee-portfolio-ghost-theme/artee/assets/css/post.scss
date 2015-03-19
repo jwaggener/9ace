@@ -28,7 +28,7 @@ $custom-font-family: 'Playfair Display', Georgia, serif;
 
 $theme-prefix: 'artee';
 
-$main-dark-color: #252525;
+$main-dark-color: #000;
 $main-light-color: #fff;
 
 $post-body-border: rem-calc(10) solid $main-dark-color;
@@ -57,19 +57,10 @@ body.author-template {
 .author-template .#{$theme-prefix}-site-head,
 .#{$theme-prefix}-site-head.error-page {
 	background: $post-header-background;
-	padding-top: rem-calc(30);
 	&.with-post-image {
 		position: absolute;
 		width: 100%;
 		background-color: rgba($main-light-color, .9);
-	}
-	@media only screen and (min-width: 40.063em) {
-		padding-bottom: rem-calc(55);
-		padding-top: rem-calc(50);
-		&.with-post-image {
-			padding-top: rem-calc(30);
-			padding-bottom: rem-calc(35);
-		}
 	}
 	.#{$theme-prefix}-blog-title {
 		padding-bottom: 0;

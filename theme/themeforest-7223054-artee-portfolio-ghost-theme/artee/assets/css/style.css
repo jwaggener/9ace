@@ -38,11 +38,11 @@ body {
     display: none; }
 
 body.home-template {
-  background-color: #1e2226; }
+  background-color: #ffffff; }
 
-.touch body {
+body {
   background-color: #fff; }
-  .touch body .artee-body-background {
+  body .artee-body-background {
     opacity: .5; }
 
 /* appropriate fixed background works on android 4.4 */
@@ -67,7 +67,7 @@ html[data-useragent*='Android 4.4'] body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Playfair Display", Georgia, serif;
-  color: #252525;
+  color: #000;
   -webkit-font-smoothing: antialiased; }
 
 p, ul, ol {
@@ -89,9 +89,9 @@ ol {
   margin-left: 1.6rem; }
 
 a {
-  color: #252525; }
+  color: #000; }
   a:hover, a:active, a:focus {
-    color: #0c0c0c; }
+    color: black; }
 
 ::selection {
   background: #000;
@@ -130,17 +130,12 @@ iframe {
 /*******************************/
 .artee-site-head {
   background: rgba(255, 255, 255, 0.9);
-  border-top: 0.625rem solid #252525;
-  padding-top: 3.125rem;
-  padding-bottom: 4.375rem;
-  color: #252525;
+  border-top: 0.625rem solid #000;
+  color: #000;
   position: relative;
   z-index: 2; }
-  @media only screen and (min-width: 40.063em) {
-    .artee-site-head {
-      padding-bottom: 8.125rem; } }
   .artee-site-head h1, .artee-site-head h2, .artee-site-head h3, .artee-site-head h4, .artee-site-head h5, .artee-site-head h6 {
-    color: #252525; }
+    color: #000; }
   .artee-site-head .artee-blog-title, .artee-site-head .artee-blog-description {
     padding-left: 0.625rem;
     padding-right: 0.625rem;
@@ -152,9 +147,6 @@ iframe {
     @media only screen and (min-width: 90.063em) {
       .artee-site-head .artee-blog-title, .artee-site-head .artee-blog-description {
         width: 83%; } }
-  @media only screen and (min-width: 40.063em) {
-    .artee-site-head .artee-blog-title {
-      padding-bottom: 3.75rem; } }
   .artee-site-head .artee-blog-title .artee-site-logo {
     line-height: 2.8125rem;
     vertical-align: middle;
@@ -213,9 +205,9 @@ iframe {
   font-size: 2.625rem; }
   .artee-blog-menu .artee-mobile-menu a {
     outline: none;
-    color: #252525; }
+    color: #000; }
   .artee-blog-menu ul {
-    background: #252525;
+    background: #000;
     position: absolute;
     width: 100%;
     -webkit-transform: translate3d(0, -110%, 0);
@@ -286,7 +278,7 @@ iframe {
           text-align: left;
           padding: 0; }
           .artee-blog-menu ul li a {
-            color: #252525;
+            color: #000;
             position: relative;
             display: inline-block; }
             .artee-blog-menu ul li a:after {
@@ -296,7 +288,7 @@ iframe {
               display: block;
               width: 0;
               height: 0.1875rem;
-              background-color: #252525;
+              background-color: #000;
               bottom: 0;
               left: 50%;
               -webkit-transform: translateX(-50%);
@@ -319,7 +311,7 @@ iframe {
   -webkit-transition: -webkit-transform .5s;
   -ms-transition: -ms-transform .5s;
   transition: transform .5s;
-  background-color: #252525;
+  background-color: #000;
   color: #fff;
   position: fixed;
   z-index: 99;
@@ -362,7 +354,7 @@ iframe {
   min-height: 100%;
   top: 0;
   left: 0;
-  background: rgba(37, 37, 37, 0.95);
+  background: rgba(0, 0, 0, 0.95);
   -webkit-user-select: none;
   user-select: none;
   opacity: 0;
@@ -504,7 +496,7 @@ iframe {
         display: inline-block;
         width: 80%;
         font-size: 1.75rem;
-        color: #323232; }
+        color: #0d0d0d; }
         .artee-index-content .artee-index-sort .artee-sort-options li a.active, .artee-index-content .artee-index-sort .artee-sort-groups-options li a.active {
           text-decoration: underline; }
       @media only screen and (min-width: 70em) {
@@ -517,7 +509,7 @@ iframe {
             margin-right: 0.625rem;
             display: inline-block; }
             .artee-index-content .artee-index-sort .artee-sort-options li a, .artee-index-content .artee-index-sort .artee-sort-groups-options li a {
-              color: #585858;
+              color: #333333;
               -webkit-transition: all .2s;
               -ms-transition: all .2s;
               -moz-transition: all .2s;
@@ -529,9 +521,9 @@ iframe {
               font-size: 0.9375rem;
               width: auto; }
               .artee-index-content .artee-index-sort .artee-sort-options li a:hover, .artee-index-content .artee-index-sort .artee-sort-options li a.active, .artee-index-content .artee-index-sort .artee-sort-options li a:active, .artee-index-content .artee-index-sort .artee-sort-options li a:focus, .artee-index-content .artee-index-sort .artee-sort-groups-options li a:hover, .artee-index-content .artee-index-sort .artee-sort-groups-options li a.active, .artee-index-content .artee-index-sort .artee-sort-groups-options li a:active, .artee-index-content .artee-index-sort .artee-sort-groups-options li a:focus {
-                color: #d8d8d8;
+                color: #b3b3b3;
                 text-decoration: none;
-                background: #252525; } }
+                background: #000; } }
     .artee-index-content .artee-index-sort .artee-sort-groups-options {
       margin: 0;
       padding: 3.4375rem 1.25rem 1.25rem; }
@@ -569,7 +561,7 @@ iframe {
         -webkit-transition: all .6s;
         transition: all .6s;
         min-width: 12.5rem;
-        box-shadow: 0 0 0.625rem rgba(37, 37, 37, 0.15); }
+        box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.15); }
         .artee-index-content .artee-index-sort.dropdown-sorter .artee-sort-groups-options.active {
           max-height: 125rem; }
         .artee-index-content .artee-index-sort.dropdown-sorter .artee-sort-groups-options li {
@@ -590,7 +582,7 @@ iframe {
           .artee-index-content .artee-index-sort .artee-sort-options li a.active {
             color: #fff;
             text-decoration: none;
-            background: #252525; }
+            background: #000; }
       @media only screen and (min-width: 70em) {
         .artee-index-content .artee-index-sort .artee-sort-options {
           float: right;
@@ -735,7 +727,7 @@ iframe {
       height: 0;
       border-top: 2.5rem solid transparent;
       border-bottom: 2.5rem solid transparent;
-      border-right: 2.5rem solid #252525;
+      border-right: 2.5rem solid #000;
       -webkit-transform: rotate(225deg);
       transform: rotate(225deg); }
 
@@ -786,12 +778,12 @@ iframe {
   padding: 6.25rem 0;
   font-size: 0.875rem;
   font-weight: 300;
-  color: #252525;
+  color: #000;
   text-align: center;
   position: relative;
   z-index: 2; }
   .artee-site-footer a {
-    color: #252525; }
+    color: #000; }
     .artee-site-footer a:hover, .artee-site-footer a:active, .artee-site-footer a:focus {
       color: inherit;
       text-decoration: underline; }
@@ -805,7 +797,7 @@ iframe {
       -moz-transition: color .3s;
       -o-transition: color .3s;
       transition: color .3s;
-      color: #252525; }
+      color: #000; }
       .artee-site-footer .artee-social-icons a:hover, .artee-site-footer .artee-social-icons a:active, .artee-site-footer .artee-social-icons a:focus {
         color: black;
         text-decoration: none; }
@@ -831,7 +823,7 @@ iframe {
   display: inline-block;
   margin-top: 1.5625rem;
   padding: 0.75rem 1.25rem;
-  background: #252525;
+  background: #000;
   color: #fff; }
 
 .artee-load-more {
@@ -840,27 +832,27 @@ iframe {
   margin-top: 2.5rem;
   margin-bottom: 3.75rem;
   background: #fff;
-  color: #252525;
+  color: #000;
   width: 95%; }
   @media only screen and (min-width: 40.063em) {
     .artee-load-more {
       width: auto; } }
   .artee-load-more.no-more-data:hover, .artee-load-more.no-more-data:active {
     background: #fff;
-    color: #252525;
+    color: #000;
     cursor: default; }
   .artee-load-more:focus {
     background: #fff;
-    color: #252525;
+    color: #000;
     outline: none; }
   .artee-load-more:hover, .artee-load-more:active, .artee-load-more:focus {
-    background: #252525;
+    background: #000;
     color: #fff; }
 
 /* back to to button */
 .artee-back-to-top {
   display: block;
-  background: rgba(37, 37, 37, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   color: #fff;
   position: fixed;
   bottom: 1.25rem;
@@ -885,7 +877,7 @@ iframe {
   .artee-back-to-top.hidden {
     right: -3.4375rem; }
   .artee-back-to-top:hover {
-    background: #181818; }
+    background: black; }
 
 /**********************/
 /* error sites styles */
