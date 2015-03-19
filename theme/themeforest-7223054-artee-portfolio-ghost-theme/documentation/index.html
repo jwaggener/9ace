@@ -1,0 +1,323 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Artee Theme Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+
+</head>
+
+
+<body>
+	<div class="container">
+
+		<h3 class="center alt">&ldquo;Artee: Portfolio Ghost Theme. &rdquo; Documentation by &ldquo;Julian Ćwirko (pxThemes)</h3>
+
+		<hr>
+
+		<h1 class="center">&ldquo;Artee: Portfolio Ghost Theme.&rdquo;</h1>
+
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 19/03/2014<br>
+					Last update: 06/03/2015<br>
+					By: Julian Ćwirko (pxThemes)<br>
+					Email: <a href="mailto:julian.cwirko@gmail.com">julian.cwirko@gmail.com</a>
+					</strong>
+				</p>
+			</div><!-- end div .span-6 -->
+
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email me via my user page contact form <a href="http://themeforest.net/user/JulianCwirko">here</a> Thanks so much!</p>
+			</div>
+		</div><!-- end div .borderTop -->
+
+		<hr>
+
+		<h2 id="toc" class="alt">Let's see what we've got here:</h2>
+		<ol class="alpha">
+			<li><a href="#ghost-theme-instalation">Ghost theme instalation</a></li>
+			<li><a href="#file-structure">Artee theme file structure</a></li>
+			<li><a href="#zurb-foundation-and-sass">Zurb Foundation and Sass</a></li>
+			<li><a href="#foundation-without-sass">Working without Sass</a></li>
+		</ol>
+		<h2 id="toc2" class="alt">So, how can I do this:</h2>
+		<ol class="alpha">
+			<li><a href="#shortcodes">How can I add Youtube or Vimeo videos to my posts?</a></li>
+			<li><a href="#foundation-elements">How can I use Zurb Foundation html elements?</a></li>
+			<li><a href="#fonts">How can I use the Mono Social and Font Awesome font icons?</a></li>
+			<li><a href="#gallery">How can I use a gallery carousel and image popup?</a></li>
+			<li><a href="#maps">How can I use Google Maps?</a></li>
+			<li><a href="#disqus">How can I configure the Disqus comments?</a></li>
+			<li><a href="#pages">How can I add some static pages and a menu block?</a></li>
+			<li><a href="#featured">How can I feature a post?</a></li>
+			<li><a href="#visualdiff">How can I use the images 'visual diff' plugin?</a></li>
+			<li><a href="#postfilters">How can I use posts filters on the index page?</a></li>
+		</ol>
+		<h2 id="toc3" class="alt">All 3rd party materials used:</h2>
+		<ol class="alpha">
+			<li><a href="#credits">List and Credits</a></li>
+		</ol>
+		<h2 id="toc4" class="alt">Troubleshooting:</h2>
+		<ol class="alpha">
+			<li><a href="#troubles">Error 502 after theme upload</a></li>
+		</ol>
+
+		<hr>
+		<h1>Important note:</h1>
+		<h3>From Ghost 0.5.8 there are some changes regards tags image covers.</h3>
+		<p>
+			Now there is a settings panel for post and tags. You can activate it by clicking on cog icon near to 'Publish/Save button' while editing post. You can upload here a post cover image. It will be displayed on index page and post page. You can also go and set up settings for tags.
+		</p>
+		<p>
+			We resigned from using a hack for post cover images consisting of placing images on top of the post content. From now on it will not work for index page, you should use post settings panel and upload image cover.
+		</p>
+
+		<hr>
+		<h1>Let's see what we've got here:</h1>
+		<h3 id="ghost-theme-instalation"><strong>A) Ghost theme instalation</strong> - <a href="#toc">top</a></h3>
+		<p>
+			Just copy 'artee' folder to your installed Ghost 'themes' folder and then restart your application. Log into admin area and go to the 'Settings' page. Choose 'artee' from 'Theme' selector. That's it!
+		</p>
+
+		<hr>
+
+		<h3 id="file-structure"><strong>B) Artee theme file structure.</strong> - <a href="#toc">top</a></h3>
+		<p>I use a standard folder structure.</p>
+		<p>There is an assets folder, index.hbs, post.hbs, page.hbs, error.hbs and default.hbs</p>
+		<p>There is a partials folder with disqus.hbs, head.hbs, sticky-header.hbs, search.hbs, menu.hbs and sort.hbs files. Here you can configure your disqus comments, post filter blocks and links and also menu links.</p>
+		<p>There are .scss and .css files in the assets/css folder (you can use the scss files with your favourite Sass workflow. I use the standard Sass command line utility 'scss --watch css:css')</p>
+		<p>There are 'vendor' folders with all third party plugins in the assets/css and the assets/js folders.</p>
+
+		<hr>
+
+		<h3 id="zurb-foundation-and-sass"><strong>C) Zurb Foundation and Sass</strong> - <a href="#toc">top</a></h3>
+
+		<p>You can use Sass compiling. Use assets/css/post.scss and assets/css/style.scss files. They compile to style.css and post.css</p>
+
+		<p>You can also use Zurb Foundation (all is configured, Artee theme is based on Zurb Foundation framework) Grid and other Foundation elements, but you must write html in your Ghost markdown editor. All rich documentation of Zurb Foundation framework is here: <a href="http://foundation.zurb.com/docs/">http://foundation.zurb.com/docs/</a></p>
+
+		<p><i>In Ghost markdown editor, it’s a good idea to write all your html code on one line without any spaces or breaklines.</i></p>
+
+		<hr>
+
+		<h3 id="foundation-without-sass"><strong>D) Working without Sass</strong> - <a href="#toc">top</a></h3>
+
+		<p>If you don't want to work with Sass just edit assets/css/style.css and assets/css/post.css files.</p>
+
+		<hr>
+		<h1>How can I do this...</h1>
+		<hr>
+
+		<h3 id="shortcodes"><strong>A) How can I add a Youtube or Vimeo videos in my posts?</strong> - <a href="#toc2">top</a></h3>
+
+		<p>Simply embed code in your Ghost markdown editor. Put it in &lt;div class="flex-video"&gt;...&lt;/div&gt; See: <a href="http://artee.pxt.be/embeding-video/">http://artee.pxt.be/embeding-video/</a></p>
+
+		<hr>
+
+		<h3 id="foundation-elements"><strong>B) How can I use Zurb Foundation html elements?</strong> - <a href="#toc2">top</a></h3>
+
+		<p>You can use a couple of Zurb Foundation HTML elements to write in the Ghost markdown editor. Here are some links to Zurb Foundation docs. Remember to remove all white spaces and breaklines from your html blocks when you’re writing in Ghost markdown editor.</p>
+		<p>Check Zurb Foundation documentation: <a href="http://foundation.zurb.com/docs/">http://foundation.zurb.com/docs/</a></p>
+		<p>Also see this example: <a href="http://artee.pxt.be/images-in-grid/">http://artee.pxt.be/images-in-grid/</a></p>
+
+		<hr>
+
+		<h3 id="fonts"><strong>C) How can I use the Mono Social and Font Awesome font icons?</strong> - <a href="#toc2">top</a></h3>
+
+		<p>Artee theme uses Mono Social Icons: <a href="http://drinchev.github.io/monosocialiconsfont/">http://drinchev.github.io/monosocialiconsfont/</a> It is better to use 'Symbol with unicode' for IE compatibility. More in the Mono Social Icons documentation. The docs are really clear and usage is very simple.</p>
+
+		<p>Artee theme uses Font Awesome: <a href="http://fontawesome.io/">http://fontawesome.io/</a> The docs are really clear so you can use them without any configuration.</p>
+
+		<hr>
+
+		<h3 id="gallery"><strong>D) How can I use a gallery carousel and image popup?</strong> - <a href="#toc2">top</a></h3>
+
+		<p>Artee theme uses Owl Carousel : <a href="http://owlgraphic.com/owlcarousel/">http://owlgraphic.com/owlcarousel/</a></p>
+		<p>
+			General usage in Artee theme: <br><br>
+			<strong>
+				&lt;div class="artee-gallery"&gt;<br>
+				&nbsp;&lt;div class="item"&gt;<br>
+				&nbsp;&nbsp;&lt;a href="/content/images/2014/Jan/1.jpg" class="artee-image-popup"&gt;<br>
+				&nbsp;&nbsp;&nbsp;&lt;img src="/content/images/2014/Jan/1.jpg" alt=""&gt;<br>
+				&nbsp;&nbsp;&lt;/a&gt;<br>
+				&nbsp;&lt;/div&gt;<br>
+				&nbsp;...<br>
+				&lt;/div&gt;<br>
+			</strong>
+			example: <a href="http://artee.pxt.be/image-gallery/">http://artee.pxt.be/image-gallery/</a>
+		</p>
+		<p>If you want Lightbox on image click, simply add 'artee-image-popup' in your &lt;a href=""&gt; link like it is shown.</p>
+		<p>Artee uses Magnific Popup here: <a href="http://dimsemenov.com/plugins/magnific-popup/">http://dimsemenov.com/plugins/magnific-popup/</a></p>
+		<p>
+			You can use Magnific Popup anywhere you want, but remember that in Ghost you still must write html in markdown editor. If you want to place Magnific Popup in (for example) any link you can write this html code: <br> <strong>&lt;a href="path/to/image.jpg" class="artee-image-popup"&gt;Some link to image popup&lt;/a&gt;</strong>
+		</p>
+		<p><i>In Ghost markdown editor, it is a good idea to write all your html code on one line without any spaces or breaklines.</i></p>
+
+		<hr>
+
+		<h3 id="maps"><strong>E) How can I use Google Maps?</strong> - <a href="#toc2">top</a></h3>
+
+		<p>Artee theme uses gmaps.js : <a href="http://hpneo.github.io/gmaps/">http://hpneo.github.io/gmaps/</a></p>
+		<p>
+			General usage in Artee theme: <br><br>
+			<strong>
+				&lt;div id="map1" class="gmaps flex-video" data-lat="50.77588" data-lng="15.75560" data-zoom="12"&gt;&lt;/div&gt;
+			</strong><br>
+			example: <a href="http://artee.pxt.be/contact/">http://artee.pxt.be/contact/</a>
+		</p>
+		<p>This is the default usage in Artee theme but gmaps.js is very complex and you can try hacking it. Here we use only one div with 'gmaps' and 'flex-video' classes + 3 properties lat, lng and zoom. You can find latitude and longitude params (for example) here: <a href="http://universimmedia.pagesperso-orange.fr/geo/loc.htm">http://universimmedia.pagesperso-orange.fr/geo/loc.htm</a></p>
+		<p><u>Remember the ids of maps must be unique.</u></p>
+		<p>You can also change the maps theme. There are a couple of examples in assets/js/vendor/gmaps-styles.js. You can find more at http://snazzymaps.com/ or you can add your own.</p>
+		<p>
+			If you want to change the maps theme go to assets/js/vendor/artee.js. Find the name of the default theme (one variable) and replace it with one from gmaps-styles.js
+		</p>
+		<p><i>
+			In Ghost markdown editor, it is a good idea to write all your html code on one line without any spaces or breaklines.
+		</i></p>
+
+		<hr>
+
+		<h3 id="disqus"><strong>F) How can I configure the Disqus comments?</strong> - <a href="#toc2">top</a></h3>
+
+		<p>Artee theme can be fast and simply integrated with the Disqus comments engine.</p>
+		<p>If you have an account at : <a href="http://disqus.com/">http://disqus.com/</a> create a forum for your Ghost blog open partials/disqus.hbs file and replace Artee theme variable with yours and that’s it.</p>
+		<p>If you don't want to use Disqus at all, simply open post.hbs and remove the <strong>{{> disqus }}</strong> part.</p>
+
+		<hr>
+
+		<h3 id="pages"><strong>G) How can I add some static pages and a menu block?</strong> - <a href="#toc2">top</a></h3>
+
+		<p>
+			From version 0.4 Ghost allows you to add pages. You can do this by marking a new post as a static page. (cog icon next to the publication/update button)
+		</p>
+
+		<p>
+			After that, you can go to your 'Navigation' panel in 'Settings' section. There you can enter links to previously created static pages or any other proper links.
+		</p>
+
+		<p>
+			You don’t need to use the menu. If you’d like, just remove all navigation links.
+			More about navigation feature you will find in official Ghost documentation and here: <a href="https://blog.ghost.org/navigation/">https://blog.ghost.org/navigation/</a>
+		</p>
+
+		<hr>
+
+		<h3 id="featured"><strong>H) How can I feature a post?</strong> - <a href="#toc2">top</a></h3>
+
+		<p>This is simple. Click on the star icon for the selected post on the post list view.</p>
+
+		<p>Featured posts are marked with a star on the bottom right corner of a single post block. (index view)</p>
+
+		<hr>
+
+		<h3 id="visualdiff"><strong>I) How can I use the images 'visual diff' plugin?</strong> - <a href="#toc2">top</a></h3>
+
+		<p>
+			In Artee Theme we use the Twenty Twenty plugin by Zurb: <a href="http://zurb.com/playground/twentytwenty">http://zurb.com/playground/twentytwenty</a> It is really awesome. You can use it if you need to highlight the differences between two images. This is some kind of a visual diff tool.
+		</p>
+
+		<p>
+			Usage is very simple. Just place your two images in the div container with 'twentytwenty-container' class: <br><br>
+			<strong>
+				&lt;div class="twentytwenty-container"&gt; <br>
+				&nbsp;&nbsp;&lt;img src="/content/images/2014/Mar/1-2.jpg" alt=""&gt; <br>
+				&nbsp;&nbsp;&lt;img src="/content/images/2014/Mar/1c-1.jpg" alt=""&gt; <br>
+				&lt;/div&gt;
+			</strong><br><br>
+			example: <a href="http://artee.pxt.be/twenty-twenty/">http://artee.pxt.be/twenty-twenty/</a>
+		</p>
+
+		<hr>
+
+		<h3 id="postfilters"><strong>J) How can I use post filters on the index page?</strong> - <a href="#toc2">top</a></h3>
+
+		<p><strong>[New]</strong> You can relay on auto populated tags list in filters (all uniq tag names from all visible posts). And you don't need to do anything else. But if you want to choose only few tags and do filtering you should read info below..</p>
+
+		<hr>
+
+		<p>Index page post filters are configurable by editing the <strong>partials/sort.hbs</strong> file. You can add, remove and rename options in a tag filter. Simply edit the option which looks like this:
+		<strong>
+		(...) <br>
+			&lt;li&gt;&lt;a href="#" data-option="people"&gt;People&lt;/a&gt;&lt;/li&gt; <br>
+		(...)
+		</strong>
+		Change the data-option attribute and change the anchor name. 'data-option' is just a tag used in posts, so if the post has one it will be filtered. Of course you can add as many tags as you want but filter by only some of them. It all depends on the configuration of the sort.hbs file.
+		</p>
+
+		<p>So, if you want to add filter options like, for example, 'Photos', 'Drawings', 'Digital' add: <br><br>
+		<strong>
+		(...) <br>
+			&lt;li&gt;&lt;a href="#" data-option="photos"&gt;Photos&lt;/a&gt;&lt;/li&gt; <br>
+			&lt;li&gt;&lt;a href="#" data-option="drawings"&gt;Drawings&lt;/a&gt;&lt;/li&gt; <br>
+			&lt;li&gt;&lt;a href="#" data-option="digital"&gt;Digital&lt;/a&gt;&lt;/li&gt; <br>
+		(...)
+		</strong> <br><br>
+		..and then when you are creating your new post, use the tags field in your admin panel and type 'drawings' or 'photos' or 'digital'.
+		</p>
+
+		<p>If you want, you can also remove filters. Just find {{> sort}} in the index.hbs file and remove it. That’s it.</p>
+
+		<hr>
+
+		<h1>All 3rd party materials used</h1>
+
+		<h3 id="credits"><strong>A) List and Credits</strong> - <a href="#toc3">top</a></h3>
+
+		<p>
+			<ul>
+				<li>Zurb Foundation 5 <a href="http://foundation.zurb.com/">http://foundation.zurb.com/</a></li>
+				<li>Font Awesome <a href="http://fontawesome.io">http://fontawesome.io</a></li>
+				<li>Mono Social Icons Font <a href="http://drinchev.github.io/monosocialiconsfont/">http://drinchev.github.io/monosocialiconsfont/</a></li>
+				<li>Owl Carousel <a href="http://owlgraphic.com/owlcarousel/">http://owlgraphic.com/owlcarousel/</a></li>
+				<li>Magnific Popup <a href="http://dimsemenov.com/plugins/magnific-popup/">http://dimsemenov.com/plugins/magnific-popup/</a></li>
+				<li>Gmaps.js <a href="http://hpneo.github.io/gmaps/">http://hpneo.github.io/gmaps/</a></li>
+				<li>Google fonts (Oswald, Open Sans) <a href="http://www.google.com/fonts">http://www.google.com/fonts</a></li>
+				<li>Nice Scroll <a href="http://areaaperta.com/nicescroll/">http://areaaperta.com/nicescroll/</a></li>
+				<li>Zurb Twenty Twenty plugin <a href="http://zurb.com/playground/twentytwenty">http://zurb.com/playground/twentytwenty</a></li>
+				<li>GhostHunter Search system <a href="https://github.com/i11ume/ghostHunter">https://github.com/i11ume/ghostHunter</a></li>
+				<li>HeadRoom Sticky header <a href="http://wicky.nillia.ms/headroom.js/">http://wicky.nillia.ms/headroom.js/</a></li>
+				<li>Reading time <a href="https://github.com/michael-lynch/reading-time">https://github.com/michael-lynch/reading-time</a></li>
+				<li>There are also tools like jQuery, Modernizr, Normalize.</li>
+				<li>All images used in Artee theme demo belongs to Tomasz Szyrwiel (tesz.pl) (I've got permission to use them). Youtube video is randomly selected.</li>
+				<li>Index page background image is from <a href="http://unsplash.com/">http://unsplash.com/</a></li>
+			</ul>
+		</p>
+
+		<hr>
+
+		<h1>Troubleshooting</h1>
+
+		<h3 id="troubles"><strong>A) Error 502 after theme upload</strong> - <a href="#toc4">top</a></h3>
+
+		<p>This is usually due to owner errors with the files. After copying the theme you need to make sure you set it to be owned by the same user. This should be the same user you are running Ghost as.</p>
+
+		<p>If you're using the DigitalOcean Ghost droplet, the command to do this would be <br><code><strong>cd /var/www/</strong></code><br> followed by <br><code><strong>chown -R ghost:ghost ghost/*</strong></code></p>
+
+		<br><br><br>
+
+		<h1>Ending..</h1>
+		<p>First of all, I’m glad that you like my work, and I'm glad that you like Envato Marketplace. It’s only through them that we can communicate.</p>
+		<p>You can modify all that you need. This is only html. Ghost isn't very big for now, so there is a lack of functionalities, but as soon as they manage (all that plugin stuff, cover images, shortcuts, etc.) I will be able to improve this theme.</p>
+		<p>If you have any questions please contact me and I will try to help you.</p>
+
+
+
+		<br><br><br><br>
+		<p class="append-bottom alt large"><strong>Julian Ćwirko</strong></p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>
