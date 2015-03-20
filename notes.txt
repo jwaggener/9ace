@@ -1,3 +1,13 @@
+Technical notes:
+The gallery stops working b/c mixed content - when it's loaded over h†tps it is trying to get something from http. Usually Google Maps is the culprit.
+The Ghost theme was purchased from theme forest and is in theme_archive
+To start up sass compilation. command line scss --watch css:css where css is a directory.
+You are using Ghost Blogging tool
+
+
+Marc Brotherton
+website: http://marcbrotherton.com/
+
 Brotherton images:
 http://i.imgur.com/jxJK953.jpg
 http://i.imgur.com/KCikMTC.jpg
@@ -14,10 +24,11 @@ http://i.imgur.com/zzzp8Xf.jpg?1
 http://i.imgur.com/gqqtN4X.jpg?1
 http://i.imgur.com/ktFrs6X.jpg
 
+Kris Pilcer
+website: http://www.krispilcher.com/
 Pilcher images:
 http://i.imgur.com/4MCB19Ym.jpg?1
 http://i.imgur.com/4MCB19Y.jpg?1
-
 http://i.imgur.com/1Ar9Ckt.jpg?1
 http://i.imgur.com/CdOjuKd.jpg
 http://i.imgur.com/4MUMTQY.jpg
@@ -32,3 +43,126 @@ http://i.imgur.com/djmEucG.jpg?1
 http://i.imgur.com/Phuk6h3.jpg?1
 http://i.imgur.com/TJmfQGe.jpg?1
 http://i.imgur.com/KIz6uxP.jpg
+
+
+Estela Semeco
+website: http://estelasemeco.com/
+Group 1 - Opening
+http://i.imgur.com/09Nok0g.jpg
+http://i.imgur.com/6Fu54Gs.jpg?1
+http://i.imgur.com/j2DIWuU.jpg
+http://i.imgur.com/t5Anz4r.jpg
+http://i.imgur.com/prhCIln.jpg
+http://i.imgur.com/5jkyXGC.jpg
+http://i.imgur.com/Q1LoEaE.jpg
+http://i.imgur.com/YkOralW.jpg
+http://i.imgur.com/Mt2cLdl.jpg
+http://i.imgur.com/81QuFrr.jpg
+http://i.imgur.com/au3unhj.jpg
+http://i.imgur.com/3zFstp4.jpg
+http://i.imgur.com/Z2c0Xgg.jpg
+http://i.imgur.com/wWPcO84.jpg
+
+Semeco - Group 2
+http://i.imgur.com/l70n74N.jpg?1
+http://i.imgur.com/u2tnizO.jpg?1
+http://i.imgur.com/bMO1Kx6.jpg
+http://i.imgur.com/erSlWIJ.jpg
+http://i.imgur.com/bMO1Kx6.jpg
+http://i.imgur.com/HtCq8wo.jpg
+http://i.imgur.com/r3QQSqa.jpg?1
+http://i.imgur.com/T4iDx4T.jpg?1
+http://i.imgur.com/bEEKqTb.jpg?1
+http://i.imgur.com/Cp6dz7T.jpg?1
+http://i.imgur.com/Kx0tkbr.jpg?1
+http://i.imgur.com/jn7fX01.jpg?1
+http://i.imgur.com/3gRHhZ2.jpg?1
+http://i.imgur.com/RYaeJjT.jpg?1
+http://i.imgur.com/0T3Ezv0.jpg?1
+http://i.imgur.com/JlmZyQU.jpg?1
+http://i.imgur.com/7angyA7.jpg?1
+http://i.imgur.com/p137S9Z.jpg?1
+http://i.imgur.com/HQ3oGRD.jpg?1
+http://i.imgur.com/5enzDXA.jpg?1
+http://i.imgur.com/WNyIPG2.jpg?1
+http://i.imgur.com/u4saVRV.jpg?1
+
+Smoke School of Art
+website: http://smokeschoolart.org/
+Facebook: https://www.facebook.com/SmokeSchoolArt
+images:
+http://i.imgur.com/caAJWT4.jpg
+http://i.imgur.com/EN8wYdd.jpg
+http://i.imgur.com/Kv0aGqo.jpg
+http://i.imgur.com/KE9MT4y.jpg
+http://i.imgur.com/auBkL5M.jpg
+http://i.imgur.com/1Wil9Aa.jpg
+http://i.imgur.com/tQLw03Q.jpg
+http://i.imgur.com/HbvNQAA.jpg
+http://i.imgur.com/FwSDPvg.jpg
+http://i.imgur.com/jLl6Wpi.jpg
+http://i.imgur.com/V4dmf7f.jpg
+http://i.imgur.com/3k4zn8H.jpg
+http://i.imgur.com/ZRqoSHQ.jpg
+http://i.imgur.com/EWnCId7.jpg
+http://i.imgur.com/KzfN6T0.jpg
+http://i.imgur.com/dKOcM0R.jpg
+http://i.imgur.com/Yidency.jpg
+http://i.imgur.com/6RmKszX.jpg
+http://i.imgur.com/W6mpd0Y.jpg
+http://i.imgur.com/I7Ur0cJ.jpg
+http://i.imgur.com/I7Ur0cJ.jpg
+
+Marc Mitchell
+website: http://www.mmitchellpainting.net/
+
+images:
+http://i.imgur.com/F0PJvnA.jpg
+http://i.imgur.com/0zOy0on.jpg
+http://i.imgur.com/6PhjBTj.jpg
+http://i.imgur.com/cIKjMAA.jpg
+http://i.imgur.com/YSTx0lX.jpg
+http://i.imgur.com/iWwhMev.jpg
+http://i.imgur.com/Yr4zM0n.jpg
+http://i.imgur.com/uhHoYv6.jpg
+http://i.imgur.com/GkPxEeP.jpg
+http://i.imgur.com/spAHXCa.jpg
+http://i.imgur.com/r6tE6Lg.jpg
+http://i.imgur.com/AWyKBWw.jpg
+http://i.imgur.com/FXsjUw8.jpg
+http://i.imgur.com/iN1bw5z.jpg
+http://i.imgur.com/rBNTmrS.jpg
+http://i.imgur.com/16QmtEh.jpg
+
+Nick Madden
+Nick Madden website: http://nickmaddenart.com/
+Will Eskridge
+Will Eskridge website: http://willeskridge.com/
+images:
+
+
+Jessica Caldas
+website: http://jessicacaldas.com/
+
+Lynn Marshall-Linnemeir
+MOCAGA info: http://www.mocaga.org/LynnMarshall-Linnemeier.asp
+
+
+Mike Stasny
+http://www.mikestasny.com/
+
+
+Burnaway Press:
+Marc Brotherton
+1. Best of 2014 at the 9 Ace according to Craig Drennen
+http://burnaway.org/burnaways-best-2014-exhibitions/
+2. http://burnawayga.tumblr.com/post/92730275022/the-shape-of-a-pocket-marc-brotherton
+3. http://burnaway.org/in-200-words-linda-hall-in-4x4-barbara-archer-gallery-marc-brotherton-at-9-ace-gallery/
+
+Susannah Darrow cites 9 Ace as place to watch out for 2015 in interview:
+http://www.deerbearwolf.com/weekly/2015/3/3/interview-susannah-darrow
+
+Terry Kearns video of Smoke School of Art opening:
+https://youtu.be/E9Sclbvdo6k
+
+William J Herriott interviewed you about Smoke School for Blog Talk Radio
