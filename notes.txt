@@ -3,6 +3,7 @@ The gallery stops working b/c mixed content - when it's loaded over h†tps it i
 The Ghost theme was purchased from theme forest and is in theme_archive
 To start up sass compilation. command line scss --watch css:css where css is a directory.
 You are using Ghost Blogging tool
+- upload stasny 6467
 
 
 Marc Brotherton
@@ -139,6 +140,38 @@ Nick Madden website: http://nickmaddenart.com/
 Will Eskridge
 Will Eskridge website: http://willeskridge.com/
 images:
+http://i.imgur.com/LcQ5y5X.jpg
+http://i.imgur.com/9vKFeJD.jpg
+http://i.imgur.com/utqzyHR.jpg
+http://i.imgur.com/0v2jBUL.jpg
+http://i.imgur.com/o48pTGO.jpg
+http://i.imgur.com/Zx4lcV5.jpg
+http://i.imgur.com/P54OwJA.jpg?1
+http://i.imgur.com/p2E6sFV.jpg
+http://i.imgur.com/090nAhE.jpg
+http://i.imgur.com/I7Rxjff.jpg
+http://i.imgur.com/Y8q1O5K.jpg
+http://i.imgur.com/NgzkmDq.jpg
+http://i.imgur.com/DFLJDFj.jpg?1
+http://i.imgur.com/8RXRg9o.jpg
+http://i.imgur.com/83z0bRR.jpg
+http://i.imgur.com/ePo2S32.jpg
+http://i.imgur.com/GxkSiaj.jpg
+http://i.imgur.com/4Yxqde7.jpg
+http://i.imgur.com/x6B2TEx.jpg
+http://i.imgur.com/IMAOVQv.jpg
+http://i.imgur.com/V0ZrnjY.jpg
+http://i.imgur.com/1rJglyF.jpg?1
+http://i.imgur.com/H9miHr6.jpg
+http://i.imgur.com/19wGBZ0.jpg
+http://i.imgur.com/MZGGFp3.jpg
+http://i.imgur.com/R6Mca7e.jpg
+http://i.imgur.com/4SsQlgR.jpg
+http://i.imgur.com/iEhNQ4t.jpg
+http://i.imgur.com/bvtzRsB.jpg
+http://i.imgur.com/EOIQ0yq.jpg
+http://i.imgur.com/iZIrIh0.jpg
+http://i.imgur.com/kzdCMa4.jpg
 
 
 Jessica Caldas
